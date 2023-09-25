@@ -66,3 +66,10 @@ SELECT * FROM videos_by_tag
         ORDER BY added_date ASC;
 ```
 ===========================================
+```
+SELECT *
+FROM videos_by_tag
+WHERE tag = 'cassandra' and added_date >= '2013-1-1'
+ORDER BY added_date ASC;
+```
+===========================================
